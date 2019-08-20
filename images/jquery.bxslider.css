@@ -30,7 +30,8 @@ ul.bxslider {
 .bx-wrapper .bx-pager,
 .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
     position: absolute;
-        bottom: 200px;
+    bottom: 145px;
+    left: -100px;
     width: 100%;
 }
 /* LOADER */
@@ -55,7 +56,8 @@ ul.bxslider {
     transform: rotate(90deg);
 }
 .bx-wrapper .social-icons a {
-    color: #343a40;     
+    color: #009917;
+    border: 1px solid #00d761;
     width: 40px;
     height: 40px;
     font-size: 20px;
@@ -69,7 +71,7 @@ ul.bxslider {
 
 
 .bx-wrapper .social-icons a:hover{
-    border: 1px solid white;
+    border: 1px solid black;
 }
 .bx-wrapper .bx-pager.bx-default-pager a {
     background: #f3f1f1;
